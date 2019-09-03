@@ -1,0 +1,5 @@
+package com.hzy.trainsignal.proxy;
+
+public class CommonProxy {
+
+}

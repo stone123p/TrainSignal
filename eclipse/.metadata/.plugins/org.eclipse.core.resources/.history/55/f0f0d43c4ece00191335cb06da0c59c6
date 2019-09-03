@@ -1,0 +1,19 @@
+package com.hzy.trainsignal.proxy;
+
+import com.hzy.trainsignal.renderer.RenderSignalControllerBox;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+
+public class CommonProxy {
+	public void registerTileEntitys() {
+		TileEntitySpecialRenderer render1 = new RenderSignalControllerBox();
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySignalControllerBox.class,render1); 	
+	}
+
+	public void registerRenders() {
+
+		
+	}
+
+}

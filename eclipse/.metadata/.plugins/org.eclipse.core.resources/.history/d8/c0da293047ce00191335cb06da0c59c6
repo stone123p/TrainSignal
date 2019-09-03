@@ -1,0 +1,7 @@
+package com.hzy.trainsignal.blocks;
+
+import net.minecraft.block.Block;
+
+public class MUX extends Block {
+
+}

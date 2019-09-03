@@ -1,0 +1,11 @@
+package com.hzy.trainsignal.renderer;
+
+import com.hzy.trainsignal.tileentity.TileEntitySignalControllerBox;
+
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+import net.minecraft.tileentity.TileEntity;
+
+public class RenderSignalControllerBox extends TileEntitySpecialRenderer {
+
+	
+}

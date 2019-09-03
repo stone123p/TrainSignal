@@ -1,0 +1,13 @@
+package com.hzy.trainsignal.proxy;
+
+public class CommonProxy {
+	public void registerTileEntitys() {
+		
+	}
+
+	public void registerRenders() {
+
+		
+	}
+
+}

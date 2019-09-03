@@ -1,0 +1,8 @@
+package com.hzy.trainsignal.blocks;
+
+public class TSBlocks {
+	public TSBlocks() {
+		
+	}
+
+}

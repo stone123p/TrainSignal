@@ -1,0 +1,13 @@
+package com.hzy.trainsignal.blocks;
+
+import com.hzy.trainsignal.TrainSignal;
+
+import net.minecraft.block.Block;
+
+public class InputBlock extends Block {
+	super(material);
+	this.setBlockName("InputBlock");
+	this.setCreativeTab(TrainSignal.trainsignalTab);
+	this.setHardness(0.3f);
+	this.setLightLevel(0.4f);
+}

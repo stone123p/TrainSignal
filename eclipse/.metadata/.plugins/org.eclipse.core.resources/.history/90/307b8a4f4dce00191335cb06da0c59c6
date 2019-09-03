@@ -1,0 +1,11 @@
+package com.hzy.trainsignal.models;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+
+public class ModelSignalControllerBox extends ModelBase{
+	ModelRenderer body;
+	public ModelSignalControllerBox() {
+		
+	}
+}

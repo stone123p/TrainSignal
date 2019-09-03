@@ -1,0 +1,15 @@
+package com.hzy.trainsignal.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class TSBlocks {
+	
+	public TSBlocks() {
+		
+	}
+	public static Block MUX = new MUX(Material.rock);
+	public static void registerBlocks() {
+		registerBlock(MUX);
+	}
+}

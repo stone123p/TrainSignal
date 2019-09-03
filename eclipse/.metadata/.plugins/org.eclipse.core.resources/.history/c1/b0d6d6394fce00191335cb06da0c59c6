@@ -1,0 +1,19 @@
+package com.hzy.trainsignal.renderer;
+
+import com.hzy.trainsignal.models.ModelSignalControllerBox;
+import com.hzy.trainsignal.tileentity.TileEntitySignalControllerBox;
+
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+import net.minecraft.tileentity.TileEntity;
+
+public class RenderSignalControllerBox extends TileEntitySpecialRenderer{
+	
+	public RenderSignalControllerBox(){
+		this.model = new ModelSignalControllerBox();
+	}
+	@Override
+	public void renderTileEntityAt(TileEntity te, double x, double y, double z,float partialTicks) {
+		
+	}
+
+}

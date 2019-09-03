@@ -1,0 +1,5 @@
+package com.hzy.trainsignal.blocks;
+
+public class Multiplexer {
+
+}

@@ -1,0 +1,5 @@
+package com.hzy.trainsignal.tileentity;
+
+public class TileEntitySignalControllerBox extends TileEntity implements  ITickable{
+
+}
