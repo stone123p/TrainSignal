@@ -1,0 +1,64 @@
+[20:04:47] [main/INFO]: Setting user: Player749
+[20:04:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:05:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[20:05:20] [Sound Library Loader/INFO]: Sound engine started
+[20:05:22] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[20:05:22] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[20:05:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[20:05:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:05:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:05:24] [Sound Library Loader/INFO]: Sound engine started
+[20:05:33] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:05:33] [Server thread/INFO]: Generating keypair
+[20:05:33] [Server thread/INFO]: Converting map!
+[20:05:33] [Server thread/INFO]: Scanning folders...
+[20:05:33] [Server thread/INFO]: Total conversion count is 0
+[20:05:34] [Server thread/INFO]: Preparing start region for level 0
+[20:05:35] [Server thread/INFO]: Preparing spawn area: 5%
+[20:05:36] [Server thread/INFO]: Preparing spawn area: 10%
+[20:05:37] [Server thread/INFO]: Preparing spawn area: 19%
+[20:05:38] [Server thread/INFO]: Preparing spawn area: 26%
+[20:05:39] [Server thread/INFO]: Preparing spawn area: 35%
+[20:05:40] [Server thread/INFO]: Preparing spawn area: 44%
+[20:05:41] [Server thread/INFO]: Preparing spawn area: 52%
+[20:05:42] [Server thread/INFO]: Preparing spawn area: 61%
+[20:05:43] [Server thread/INFO]: Preparing spawn area: 69%
+[20:05:44] [Server thread/INFO]: Preparing spawn area: 79%
+[20:05:45] [Server thread/INFO]: Preparing spawn area: 87%
+[20:05:46] [Server thread/INFO]: Preparing spawn area: 97%
+[20:05:46] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:05:47] [Server thread/INFO]: Player749[local:E:1ee9b708] logged in with entity id 266 at (15.5, 82.0, 247.5)
+[20:05:47] [Server thread/INFO]: Player749 joined the game
+[20:05:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6800ms behind, skipping 136 tick(s)
+[20:06:02] [Client thread/INFO]: Warning: Clientside chunk ticking took 615 ms
+[20:06:03] [Client thread/INFO]: Warning: Clientside chunk ticking took 770 ms
+[20:06:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 166 ms
+[20:06:11] [Client thread/INFO]: Warning: Clientside chunk ticking took 162 ms
+[20:06:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 141 ms
+[20:06:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 130 ms
+[20:06:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 105 ms
+[20:06:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 244 ms
+[20:06:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 261 ms
+[20:06:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 142 ms
+[20:06:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 142 ms
+[20:06:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 146 ms
+[20:06:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
+[20:06:32] [Server thread/INFO]: Player749 has just earned the achievement [Taking Inventory]
+[20:06:32] [Client thread/INFO]: [CHAT] Player749 has just earned the achievement [Taking Inventory]
+[20:06:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20924ms behind, skipping 418 tick(s)
+[20:06:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2413ms behind, skipping 48 tick(s)
+[20:06:39] [Server thread/INFO]: Saving and pausing game...
+[20:06:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:06:40] [Client thread/INFO]: Stopping!
+[20:06:40] [Server thread/INFO]: Stopping server
+[20:06:40] [Server thread/INFO]: Saving players
+[20:06:40] [Server thread/INFO]: Saving worlds
+[20:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:06:41] [Client Shutdown Thread/INFO]: Stopping server
+[20:06:41] [Client Shutdown Thread/INFO]: Saving players
+[20:06:41] [Client Shutdown Thread/INFO]: Saving worlds
+[20:06:41] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld
