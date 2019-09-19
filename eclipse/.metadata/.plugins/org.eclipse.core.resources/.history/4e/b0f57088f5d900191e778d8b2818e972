@@ -1,0 +1,43 @@
+package com.hzy.trainsignal.items;
+
+import com.hzy.trainsignal.TrainSignal;
+
+import com.hzy.trainsignal.tileentity.TileEntitySignalControllerBox;
+import com.hzy.trainsignal.tileentity.TileEntitySignalReceiveBox;
+
+import net.minecraft.block.Block;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.MovingObjectPosition;
+import net.minecraft.world.World;
+
+public class Remote extends Item {
+	@Override
+	public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
+		
+		if(stack.getTagCompound().hasKey("bind")){	
+			NBTTagCompound nbt = (NBTTagCompound) stack.getTagCompound().getTag("bind");
+            if(world.isRemote)
+            	player.addChatMessage(new ChatComponentText("bind to"+nbt ));
+		}
+		
+		return stack;
+	}
+
+
+		
+	
+
+	public Remote() {
+		this.setCreativeTab(TrainSignal.trainsignalTab);
+		this.setUnlocalizedName("remote");
+		this.maxStackSize=1;
+		this.setTextureName(TrainSignal.MODID+":remote");
+	}
+
+	
+	
+}

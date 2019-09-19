@@ -1,0 +1,39 @@
+package com.hzy.trainsignal.blocks;
+
+import com.hzy.trainsignal.TrainSignal;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockContainer;
+import net.minecraft.block.material.Material;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
+
+public class JunctionBox extends BlockContainer{
+
+	protected JunctionBox(Material p_i45394_1_) {
+		super(p_i45394_1_);
+		this.setBlockName("junction_box");
+		this.setBlockTextureName(TrainSignal.MODID+":junction_box");
+		this.setCreativeTab(TrainSignal.trainsignalTab);
+		this.setHardness(0.3f);
+		this.setLightLevel(0.4f);
+		this.setBlockBounds(0.15f, 0.0f, 0.15f, 0.85f, 0.5f, 0.85f);
+	}
+	@Override
+	public int getRenderType(){
+	    return -1;
+	}
+	public boolean isFullCube()
+    {
+        return false;
+    }
+	@Override
+	public boolean isOpaqueCube() {
+		return false;
+	}
+	@Override
+	public TileEntity createNewTileEntity(World p_149915_1_, int p_149915_2_) {
+		return new TileEntity();
+	}
+
+}

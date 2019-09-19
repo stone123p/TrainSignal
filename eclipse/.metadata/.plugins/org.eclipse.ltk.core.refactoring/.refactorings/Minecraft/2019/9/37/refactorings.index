@@ -1,0 +1,17 @@
+1567924963176	Rename type 'MyMessage'
+1567924985213	Rename type 'MyMessageHandler'
+1567934507177	Rename type 'PacketerHandler'
+1567934543730	Rename type 'PacketerControllerHandler'
+1567934569306	Rename type 'SignalPacketer'
+1567935441760	Copy compilation unit
+1567935458878	Rename type 'SignalControllerPacketer2'
+1567935517449	Copy compilation unit
+1567935537402	Rename type 'SignalControllerPacketerHandler2'
+1568039989681	Delete element
+1568128914898	Delete element
+1568128932102	Delete element
+1568129098673	Rename type 'TileEntitySignalMUXBox'
+1568129146567	Rename type 'GuiSignalMUXBox'
+1568208951490	Delete element
+1568209760634	Delete element
+1568210002690	Delete element

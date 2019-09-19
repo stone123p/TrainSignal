@@ -1,0 +1,22 @@
+package com.hzy.trainsignal.proxy;
+
+import com.hzy.trainsignal.tileentity.TileEntitySwitchBox();
+import com.hzy.trainsignal.tileentity.TileEntitySignalControllerBox;
+import com.hzy.trainsignal.tileentity.TileEntitySignalReceiveBox;
+import com.hzy.trainsignal.tileentity.TileEntitySwitchBox;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+
+public class ClientProxy extends CommonProxy{
+	@Override
+	public void registerRenders() {
+		
+	}
+	public void registerTileEntitys() {
+		GameRegistry.registerTileEntity(TileEntitySignalControllerBox.class, "TileEntitySignalControllerBox");
+		GameRegistry.registerTileEntity(TileEntitySignalReceiveBox.class, "TileEntitySignalReceiveBox");
+
+	}
+}

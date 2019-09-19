@@ -2,31 +2,37 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="field_150181_a" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="registerRenders"/>
-			<item value="RenderSignalControllerBox"/>
-			<item value="the"/>
-			<item value="the texture"/>
-			<item value="objModelLocation"/>
-			<item value="getUnlocalizedName"/>
-			<item value="TileEntitySignalControllerBox"/>
+			<item value="isTurnOn"/>
+			<item value="getEmitSignal"/>
+			<item value="entity"/>
+			<item value="isPowerProviderOrWire"/>
+			<item value="field_150181_a"/>
+			<item value="isProvidingStrongPower"/>
+			<item value="Prov"/>
+			<item value="isBlockProvidin"/>
+			<item value="isBlockProvidingPowerTo"/>
+			<item value="isProviding"/>
+			<item value="setActions"/>
+			<item value="p_149748_5_"/>
+			<item value="action_signal"/>
 			<item value="hzy"/>
-			<item value="setTextureOffset"/>
+			<item value="sys"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="458" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
-		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="367" key="DIALOG_X_ORIGIN"/>
-		<item value="88" key="DIALOG_Y_ORIGIN"/>
+		<item value="720" key="DIALOG_HEIGHT"/>
+		<item value="584" key="DIALOG_X_ORIGIN"/>
+		<item value="-3" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

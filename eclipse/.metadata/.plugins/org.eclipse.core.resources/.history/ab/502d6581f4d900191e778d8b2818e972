@@ -1,0 +1,7 @@
+package com.hzy.trainsignal.tileentity;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntityJunctionBox extends TileEntity {
+
+}

@@ -1,0 +1,19 @@
+package com.hzy.trainsignal.blocks;
+
+import com.hzy.trainsignal.TrainSignal;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class Brand extends Block {
+
+	protected Brand(Material p_i45394_1_, String string) {
+		super(p_i45394_1_);
+		this.setBlockName("string");
+		this.setBlockTextureName(TrainSignal.MODID+":string");
+		this.setCreativeTab(TrainSignal.trainsignalTab);
+		this.setHardness(0.3f);
+		this.setBlockBounds(0.15f, 0.0f, 0.15f, 0.85f, 0.35f, 0.85f);
+	}
+
+}

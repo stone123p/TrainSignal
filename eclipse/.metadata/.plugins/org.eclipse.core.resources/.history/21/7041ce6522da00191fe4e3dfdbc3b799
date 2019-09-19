@@ -1,0 +1,20 @@
+package com.hzy.trainsignal.tileentity;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntitySwitchBox extends TileEntity {
+	public int default_X,default_Y,default_Z,redstone_X,redstone_Y,redstone_Z;
+	
+	public void ToBind(int x, int y, int z, int side) {
+		if(side==0) {
+			default_X=x;
+			default_Y=y;
+			default_Z=z;
+		}else {
+			redstone_X;
+			redstone_Y;
+			redstone_Z;
+		}
+	}
+
+}

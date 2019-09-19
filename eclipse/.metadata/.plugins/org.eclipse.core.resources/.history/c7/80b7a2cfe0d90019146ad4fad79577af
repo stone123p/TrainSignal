@@ -1,0 +1,56 @@
+package com.hzy.trainsignal.items;
+
+import com.hzy.trainsignal.TrainSignal;
+
+import com.hzy.trainsignal.tileentity.TileEntitySignalControllerBox;
+import com.hzy.trainsignal.tileentity.TileEntitySignalReceiveBox;
+
+import net.minecraft.block.Block;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.MovingObjectPosition;
+import net.minecraft.world.World;
+
+public class Remote extends Item {
+	public String[] modes=new String[] {"set reomte","bind receiver"};
+	@Override
+	public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
+		if(player.getCurrentEquippedItem()!=null) {
+			ItemStack itemStack=player.getCurrentEquippedItem();
+			
+			if(itemStack.getItem()==TSItems.remote ) {
+				if(itemStack.getTagCompound() !=null){
+					if(itemStack.getTagCompound().hasKey("mode")){
+						int i = itemStack.getTagCompound().getInteger("mode");
+			            player.addChatMessage(new ChatComponentText("mode"+this.modes[i] ));
+						
+					}
+					
+				}
+			}
+			
+		}
+		return stack;
+	}
+
+
+	@Override
+	public void onCreated(ItemStack stack, World p_77622_2_, EntityPlayer p_77622_3_) {
+		if(stack.getTagCompound()==null) {
+			stack.setTagCompound(new NBTTagCompound());
+		} 
+		stack.getTagCompound().setInteger("mode", 0);
+	}
+
+	public Remote() {
+		this.setCreativeTab(TrainSignal.trainsignalTab);
+		this.setUnlocalizedName("remote");
+		this.setTextureName(TrainSignal.MODID+":remote");
+	}
+
+	
+	
+}

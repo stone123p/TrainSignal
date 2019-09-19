@@ -1,0 +1,15 @@
+package com.hzy.trainsignal.models;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.tileentity.TileEntity;
+
+public class ModelJunctionBox extends ModelBase{
+	ModelRenderer body;
+	public ModelSignalControllerBox() {
+		
+	}
+	public void renderModel(TileEntity te, float f) {
+		
+	}
+
+}

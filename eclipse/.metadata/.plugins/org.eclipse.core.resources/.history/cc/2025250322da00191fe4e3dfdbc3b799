@@ -1,0 +1,11 @@
+package com.hzy.trainsignal.tileentity;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntitySwitchBox extends TileEntity {
+
+	public void ToBind(int x, int y, int z, int side) {
+		
+	}
+
+}

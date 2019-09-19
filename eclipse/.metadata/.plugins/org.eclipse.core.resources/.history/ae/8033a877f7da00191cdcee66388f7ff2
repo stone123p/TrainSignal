@@ -1,0 +1,69 @@
+package com.hzy.trainsignal.renderer;
+
+import org.lwjgl.opengl.GL11;
+
+import com.hzy.trainsignal.TrainSignal;
+import com.hzy.trainsignal.tileentity.TileEntityBrand;
+
+import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.model.AdvancedModelLoader;
+import net.minecraftforge.client.model.IModelCustom;
+
+public class RenderTileEntityBrand extends TileEntitySpecialRenderer {
+	ResourceLocation texture,texture2;
+	ResourceLocation objModelLocation;
+	IModelCustom model;
+	public RenderTileEntityBrand() {
+		texture = new ResourceLocation(TrainSignal.MODID, "textures/models/baseTexture2.png");
+	   
+	}
+	@Override
+	public void renderTileEntityAt(TileEntity tileentity, double x, double y, double z,float f) {
+		int[] name=new int[] {1,1,2,2,3,3};
+		TileEntityBrand te2 = (TileEntityBrand) tileentity;
+		/*
+		model = AdvancedModelLoader.loadModel(new ResourceLocation(TrainSignal.MODID, "models/signal"+te2.meta+".obj"));
+		bindTexture(texture);
+		
+		GL11.glPushMatrix();
+		GL11.glTranslated(x + 0.44, y + 0.45, z + 0.5);
+		GL11.glScalef(.45f, .45f, .45f);
+		GL11.glPushMatrix();
+			model.renderAll();
+		GL11.glPopMatrix();
+		GL11.glPopMatrix();
+		*/
+		GL11.glPushMatrix();
+		GL11.glTranslatef((float) x + 0.5F, (float) y , (float) z + 0.5F );
+    	GL11.glRotated(te2.face*45, 0f, 1f, 0f);
+
+    	Tessellator tess =Tessellator.instance;
+    	this.bindTexture(new ResourceLocation(TrainSignal.MODID, "textures/models/rrs"+te2.meta+".png"));
+    	tess.startDrawingQuads(); //Starts drawing
+    	{
+    		tess.addVertexWithUV(0, 0.2, 0.8, 1, 1);
+    		tess.addVertexWithUV(0, 0.8, 0.8, 1, 0);
+    		tess.addVertexWithUV(0, 0.8, 0.2, 0, 0);
+    		tess.addVertexWithUV(0, 0.2, 0.2, 0, 1);
+    	}
+    
+    	tess.draw(); //Draws
+    	this.bindTexture(new ResourceLocation(TrainSignal.MODID, "textures/models/back"+name[te2.meta-1]+".png"));
+    	tess.startDrawingQuads(); //Starts drawing
+    	{
+    		tess.addVertexWithUV(0.1, 0.2, 0.2, 1, 1);
+    		tess.addVertexWithUV(0.1, 0.8, 0.2, 1, 0);
+    		tess.addVertexWithUV(0.1, 0.8, 0.8, 0, 0);
+    		tess.addVertexWithUV(0.1, 0.2, 0.8, 0, 1);
+    		
+    	}
+    
+    	tess.draw(); //Draws
+    	
+    	GL11.glPopMatrix();
+	}
+
+}

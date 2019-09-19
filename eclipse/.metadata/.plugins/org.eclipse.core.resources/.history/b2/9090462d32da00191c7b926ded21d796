@@ -1,0 +1,12 @@
+package com.hzy.trainsignal.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class Brand extends Block {
+
+	protected Brand(Material p_i45394_1_, String string) {
+		super(p_i45394_1_);
+	}
+
+}

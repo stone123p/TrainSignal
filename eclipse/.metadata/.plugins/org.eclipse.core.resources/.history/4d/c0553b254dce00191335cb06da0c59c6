@@ -1,5 +1,0 @@
-package com.hzy.trainsignal.models;
-
-public class ModelSignalControllerBox extends ModelBase
-
-}

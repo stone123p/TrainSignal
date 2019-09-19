@@ -1,0 +1,11 @@
+package com.hzy.trainsignal.models;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class ModelJunctionBox {
+
+	public void renderModel(TileEntity te, float f) {
+		
+	}
+
+}
