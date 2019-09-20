@@ -1,0 +1,122 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 2019/9/20 上午 11:50
+Description: Rendering Block Entity
+
+net.minecraftforge.client.model.ModelFormatException: IO Exception reading model format
+	at net.minecraftforge.client.model.obj.WavefrontObject.<init>(WavefrontObject.java:60)
+	at net.minecraftforge.client.model.obj.ObjModelLoader.loadInstance(ObjModelLoader.java:27)
+	at net.minecraftforge.client.model.AdvancedModelLoader.loadModel(AdvancedModelLoader.java:65)
+	at com.hzy.trainsignal.renderer.RenderTileEntitySignalBlock.renderTileEntityAt(RenderTileEntitySignalBlock.java:28)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntityAt(TileEntityRendererDispatcher.java:141)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntity(TileEntityRendererDispatcher.java:126)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:539)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1300)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1091)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1067)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+Caused by: java.io.FileNotFoundException: trainsignal:models/light0.obj
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67)
+	at net.minecraftforge.client.model.obj.WavefrontObject.<init>(WavefrontObject.java:55)
+	... 19 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraftforge.client.model.obj.WavefrontObject.<init>(WavefrontObject.java:60)
+	at net.minecraftforge.client.model.obj.ObjModelLoader.loadInstance(ObjModelLoader.java:27)
+	at net.minecraftforge.client.model.AdvancedModelLoader.loadModel(AdvancedModelLoader.java:65)
+	at com.hzy.trainsignal.renderer.RenderTileEntitySignalBlock.renderTileEntityAt(RenderTileEntitySignalBlock.java:28)
+
+-- Block Entity Details --
+Details:
+	Name: TileEntitySignalBlock // com.hzy.trainsignal.tileentity.TileEntitySignalBlock
+	Block type: ID #184 (tile.SignalBlock_5 // com.hzy.trainsignal.blocks.SignalBlock)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-19,4,-806), Chunk: (at 13,0,10 in -2,-51; contains blocks -32,0,-816 to -17,255,-801), Region: (-1,-2; contains chunks -32,-64 to -1,-33, blocks -512,0,-1024 to -1,255,-513)
+	Actual block type: ID #184 (tile.SignalBlock_5 // com.hzy.trainsignal.blocks.SignalBlock)
+	Actual block data value: 0 / 0x0 / 0b0000
+Stacktrace:
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntityAt(TileEntityRendererDispatcher.java:141)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntity(TileEntityRendererDispatcher.java:126)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:539)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1300)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player143'/111, l='MpServer', x=-20.34, y=5.62, z=-805.99]]
+	Chunk stats: MultiplayerChunkCache: 155, 155
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-29,4,-798), Chunk: (at 3,0,2 in -2,-50; contains blocks -32,0,-800 to -17,255,-785), Region: (-1,-2; contains chunks -32,-64 to -1,-33, blocks -512,0,-1024 to -1,255,-513)
+	Level time: 5133 game time, 5133 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 48 total; [EntityCow['Cow'/66, l='MpServer', x=25.72, y=4.00, z=-847.28], EntitySheep['Sheep'/67, l='MpServer', x=29.56, y=4.00, z=-834.69], EntityCow['Cow'/68, l='MpServer', x=30.81, y=4.00, z=-844.78], EntitySheep['Sheep'/69, l='MpServer', x=29.88, y=4.00, z=-824.72], EntityChicken['Chicken'/70, l='MpServer', x=19.63, y=4.00, z=-822.59], EntityPig['Pig'/6, l='MpServer', x=-98.03, y=4.00, z=-751.91], EntityChicken['Chicken'/71, l='MpServer', x=22.47, y=4.00, z=-826.38], EntityCow['Cow'/72, l='MpServer', x=31.88, y=4.00, z=-824.91], EntitySheep['Sheep'/9, l='MpServer', x=-87.82, y=4.00, z=-804.26], EntityPig['Pig'/10, l='MpServer', x=-82.72, y=4.00, z=-798.72], EntityPig['Pig'/11, l='MpServer', x=-84.31, y=4.00, z=-797.75], EntityChicken['Chicken'/12, l='MpServer', x=-83.34, y=4.00, z=-788.56], EntityCow['Cow'/13, l='MpServer', x=-88.84, y=4.00, z=-738.19], EntityPig['Pig'/17, l='MpServer', x=-68.28, y=4.00, z=-800.16], EntityChicken['Chicken'/18, l='MpServer', x=-67.31, y=4.00, z=-806.47], EntityCow['Cow'/82, l='MpServer', x=43.03, y=4.00, z=-884.06], EntityChicken['Chicken'/19, l='MpServer', x=-73.44, y=4.00, z=-800.47], EntityCow['Cow'/83, l='MpServer', x=41.94, y=4.00, z=-837.97], EntitySheep['Sheep'/20, l='MpServer', x=-71.28, y=4.00, z=-801.75], EntityChicken['Chicken'/84, l='MpServer', x=37.47, y=4.00, z=-841.47], EntitySheep['Sheep'/21, l='MpServer', x=-71.50, y=4.00, z=-795.22], EntitySheep['Sheep'/85, l='MpServer', x=37.13, y=4.00, z=-833.94], EntitySheep['Sheep'/22, l='MpServer', x=-65.88, y=4.00, z=-789.56], EntitySheep['Sheep'/86, l='MpServer', x=33.19, y=4.00, z=-825.53], EntityPig['Pig'/23, l='MpServer', x=-69.09, y=4.00, z=-787.25], EntitySheep['Sheep'/29, l='MpServer', x=-49.25, y=4.00, z=-884.34], EntityChicken['Chicken'/32, l='MpServer', x=-57.84, y=4.00, z=-871.91], EntityChicken['Chicken'/33, l='MpServer', x=-49.66, y=4.00, z=-867.56], EntityChicken['Chicken'/34, l='MpServer', x=-61.44, y=4.00, z=-867.44], EntityChicken['Chicken'/35, l='MpServer', x=-51.38, y=4.00, z=-855.41], EntityChicken['Chicken'/36, l='MpServer', x=-48.68, y=4.00, z=-858.56], EntityChicken['Chicken'/37, l='MpServer', x=-58.50, y=4.00, z=-856.50], EntityChicken['Chicken'/38, l='MpServer', x=-53.63, y=4.00, z=-863.41], EntityHorse['Horse'/39, l='MpServer', x=-52.91, y=4.00, z=-838.22], EntityClientPlayerMP['Player143'/111, l='MpServer', x=-20.34, y=5.62, z=-805.99], EntitySheep['Sheep'/40, l='MpServer', x=-54.50, y=4.00, z=-824.56], EntityHorse['Horse'/41, l='MpServer', x=-62.09, y=4.00, z=-823.81], EntitySheep['Sheep'/42, l='MpServer', x=-55.34, y=4.00, z=-812.16], EntityChicken['Chicken'/43, l='MpServer', x=-61.09, y=4.00, z=-811.78], EntitySheep['Sheep'/44, l='MpServer', x=-60.72, y=4.00, z=-793.56], EntityChicken['Chicken'/46, l='MpServer', x=-41.59, y=4.00, z=-878.41], EntityChicken['Chicken'/47, l='MpServer', x=-46.59, y=4.00, z=-871.41], EntityChicken['Chicken'/48, l='MpServer', x=-44.81, y=4.00, z=-863.44], EntityChicken['Chicken'/49, l='MpServer', x=-41.16, y=4.00, z=-850.41], EntityChicken['Chicken'/50, l='MpServer', x=-43.63, y=4.00, z=-861.44], EntityChicken['Chicken'/51, l='MpServer', x=-45.72, y=4.00, z=-811.84], EntitySheep['Sheep'/53, l='MpServer', x=-28.56, y=4.00, z=-847.78], EntityHorse['Horse'/54, l='MpServer', x=-30.25, y=4.00, z=-827.91]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2566)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:984)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Mac OS X (x86_64) version 10.11.6
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 766232584 bytes (730 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	trainsignal{0.1} [trainsignal] (bin) 
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.14.74' Renderer: 'Intel(R) HD Graphics 5300'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: Intel(R) HD Graphics 5300 GL version 2.1 INTEL-10.14.74, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

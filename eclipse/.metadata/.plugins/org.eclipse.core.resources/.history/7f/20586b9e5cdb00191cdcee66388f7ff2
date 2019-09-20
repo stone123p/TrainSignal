@@ -1,0 +1,42 @@
+package com.hzy.trainsignal.renderer;
+
+import org.lwjgl.opengl.GL11;
+
+import com.hzy.trainsignal.TrainSignal;
+import com.hzy.trainsignal.tileentity.TileEntitySignalBlock;
+
+import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.model.AdvancedModelLoader;
+import net.minecraftforge.client.model.IModelCustom;
+
+public class RenderTileEntitySignalBlock extends TileEntitySpecialRenderer {
+	ResourceLocation texture;
+	ResourceLocation objModelLocation;
+	IModelCustom model;
+	public RenderTileEntitySignalBlock() {
+		texture = new ResourceLocation(TrainSignal.MODID, "textures/models/baseTexture1.png");
+	   
+	}
+	@Override
+	public void renderTileEntityAt(TileEntity tileentity, double x, double y, double z,float f) {
+		int[] name=new int[] {1,1,2,2,3,3};
+		TileEntitySignalBlock te2 = (TileEntitySignalBlock) tileentity;
+		
+		model = AdvancedModelLoader.loadModel(new ResourceLocation(TrainSignal.MODID, "models/light1.obj"));
+		
+		
+		GL11.glPushMatrix();
+		bindTexture(texture);
+		GL11.glTranslated(x + 0.44, y + 0.45, z + 0.5);
+		GL11.glScalef(.4f, .4f, .4f);
+		GL11.glPushMatrix();
+			model.renderAll();
+		GL11.glPopMatrix();
+		GL11.glPopMatrix();
+		
+	}
+
+}

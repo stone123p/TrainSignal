@@ -18,8 +18,8 @@ public class Brand extends BlockContainer {
 	protected int meta=0;
 	protected Brand(Material p_i45394_1_, String string,int meta) {
 		super(p_i45394_1_);
-		this.setBlockName(string+"_"+meta);
-		this.setBlockTextureName(TrainSignal.MODID+":"+string+"_"+meta);
+		this.setBlockName(string);
+		this.setBlockTextureName(TrainSignal.MODID+":"+string);
 		this.setCreativeTab(TrainSignal.trainsignalTab);
 		this.setHardness(0.3f);
 		this.setBlockBounds(0.35f, 0.35f, 0.35f, 0.65f, 0.65f, 0.65f);
@@ -35,10 +35,10 @@ public class Brand extends BlockContainer {
         return -1;
     }
     @Override
-    public void onBlockPlacedBy(World world, int x, int y, int z, EntityLivingBase p_149689_5_, ItemStack p_149689_6_)
+    public void onBlockPlacedBy(World world, int x, int y, int z, EntityLivingBase Living, ItemStack p_149689_6_)
     {
-    	if(p_149689_5_ instanceof EntityPlayer)
-    		((TileEntityBrand)world.getTileEntity(x, y, z)).face=p_149689_5_.rotationYaw/45;
+    	if(Living instanceof EntityPlayer)
+    		((TileEntityBrand)world.getTileEntity(x, y, z)).face=Living.rotationYaw/45;
     		
         	
     }

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="net.minecraft.entity.player.InventoryPlayer"/>
-<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLInitializationEvent"/>
 <fullyQualifiedTypeName name="net.minecraft.client.gui.inventory.GuiContainer"/>
 <fullyQualifiedTypeName name="net.minecraft.inventory.Container"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="net.minecraft.util.MathHelper"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
 </qualifiedTypeNameHistroy>

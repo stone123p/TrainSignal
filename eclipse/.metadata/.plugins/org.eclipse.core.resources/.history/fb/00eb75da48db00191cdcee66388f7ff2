@@ -1,0 +1,28 @@
+package com.hzy.trainsignal.blocks;
+
+import com.hzy.trainsignal.TrainSignal;
+
+import net.minecraft.block.BlockContainer;
+import net.minecraft.block.material.Material;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
+
+public class SignalBlock extends BlockContainer {
+	protected int meta=0;
+	protected SignalBlock(Material p_i45386_1_,String string,int meta) {
+		super(p_i45386_1_);
+		this.setBlockName(string+"_"+meta);
+		this.setBlockTextureName(TrainSignal.MODID+":"+string+"_"+meta);
+		this.setCreativeTab(TrainSignal.trainsignalTab);
+		this.setHardness(0.3f);
+		this.setBlockBounds(0.35f, 0.35f, 0.35f, 0.65f, 0.65f, 0.65f);
+		this.meta=meta;
+	}
+
+	@Override
+	public TileEntity createNewTileEntity(World p_149915_1_, int p_149915_2_) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

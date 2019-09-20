@@ -9,6 +9,46 @@
 	<atom:link rel="self" href="http://planeteclipse.org/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Cedric Brun: Let's Do It! Obeo loves The SeaCleaners</title>
+	<guid isPermaLink="false">https://cedric.brun.io/eclipse/obeo-environment-theseacleaners</guid>
+	<link>https://cedric.brun.io/eclipse/obeo-environment-theseacleaners/</link>
+	<description>&lt;p&gt;I am deeply convinced a company is not only an economical actor. It has a much wider responsibility as any decision also has &lt;strong&gt;social&lt;/strong&gt;, &lt;strong&gt;environmental&lt;/strong&gt; or even &lt;strong&gt;political&lt;/strong&gt; implications.&lt;/p&gt;
+
+&lt;p&gt;Looking at our environment state, its recent evolution and how it is forecasted to evolve indeed the task in front of us is huge. It would be easy to dismiss this as a problem our governments and big organizations should step up to, and indeed those in power have the responsibility, the ability and leverage to act and maybe bend those charts.&lt;/p&gt;
+
+&lt;p&gt;But I have a motto to &lt;em&gt;“Focus on what you can control, then you can act”&lt;/em&gt; and so do I.&lt;/p&gt;
+
+&lt;p&gt;Obeo participates and hosts quite a few events each year and we are often struck by the nonsensical nature of the “goodies” industry and what global model they promote: built at the cheapest price, moved across the globe, distributed at the event and then pretty quickly to the bin.&lt;/p&gt;
+
+&lt;p&gt;Starting now, &lt;strong&gt;you won’t get any more goodies from us at conferences or events&lt;/strong&gt;, but instead we will gladly discuss how we try to do our part, as a company, in this global challenge.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;https://www.theseacleaners.org/en/&quot;&gt;&lt;img src=&quot;https://cedric.brun.io/images/blog/seacleaners/seacleaners.png&quot; style=&quot;float: right;&quot; /&gt;&lt;/a&gt;      
+&lt;/figure&gt;
+
+&lt;p&gt;In relation to this initiative to stop producing waste we do not deem necessary: &lt;strong&gt;Obeo is partnering with The SeaCleaners organization to reduce plastic waste&lt;/strong&gt;. &lt;a href=&quot;https://www.theseacleaners.org/en&quot; target=&quot;_blank&quot;&gt;The SeaCleaners&lt;/a&gt; is building a giant multihull boat designed to retrieve the plastic waste in the Ocean: The &lt;strong&gt;MANTA&lt;/strong&gt;. The organization vision is that the preservation of the oceans is a global, long-term and worldwide matter that integrates economic, social, human, educational and scientific perspectives. They do that in a dynamic and solidarity-based project.
+You can &lt;a href=&quot;https://news.obeo.fr/en/post/world-cleanup-day-obeo-supports-the-seacleaners-to-reduce-plastic-waste&quot; target=&quot;_blank&quot;&gt;learn more about this initiative on Obeo’s website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;https://www.theseacleaners.org/en/technical-data/&quot;&gt;&lt;img src=&quot;https://cedric.brun.io/images/blog/seacleaners/manta.png&quot; /&gt;&lt;/a&gt;  
+    &lt;figcaption&gt;The &quot;Manta&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Furthermore, &lt;strong&gt;all the designs and blueprints of the Manta boat will be Open-Source&lt;/strong&gt; and that enable enhancements and duplication at a global scale, a principle clearly aligned with our values and what we do within the Eclipse community.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;https://www.theseacleaners.org/en/technical-data/&quot;&gt;&lt;img src=&quot;https://cedric.brun.io/images/blog/seacleaners/manta-tech.png&quot; /&gt;&lt;/a&gt;  
+    &lt;figcaption&gt;The &quot;Manta&quot; boat technical data&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That being said, it is &lt;strong&gt;just one step on a very specific part of our activity&lt;/strong&gt;, but a step starting a journey with more to do to improve the way Obeo operates regarding its environmental responsibility. When you start building awareness of our impact on all the ins and outs of what we do, you realize even a non-industrial, software company can contribute.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://cedric.brun.io/eclipse/obeo-environment-theseacleaners/&quot;&gt;Let's Do It! Obeo loves The SeaCleaners&lt;/a&gt; was originally published by Cédric Brun at &lt;a href=&quot;https://cedric.brun.io&quot;&gt;CEO @ Obeo&lt;/a&gt; on September 20, 2019.&lt;/p&gt;</description>
+	<pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+	<author>cedric.brun@obeo.fr (Cédric Brun)</author>
+</item>
+<item>
 	<title>Webtools News: WTP 3.15 Released!</title>
 	<guid isPermaLink="false">http://www.eclipse.org/webtools/news.php#permalink189</guid>
 	<link>http://eclipse.org/webtools/releases/3.15</link>
@@ -184,6 +224,13 @@ expect more milestones to outline the progress of the effort.&lt;/p&gt;
 &lt;p&gt;You may also organize a BoF after you arrive at the conference. Just check out the BoF Board near Registration to see how it's done.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2019/news/call-bofs&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Bof_0.jpg?itok=z4jOLm7T&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Wed, 18 Sep 2019 22:29:03 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EMF Forms and EMF Client Platform 1.21.0 released!</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=41936</guid>
+	<link>https://eclipsesource.com/blogs/2019/09/18/emf-forms-and-emf-client-platform-1-21-0-released-2/</link>
+	<description>&lt;p&gt;We are happy to announce that with the Eclipse Release 2019-09, we have also been able to ship EMF Forms and...&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;https://eclipsesource.com/blogs/2019/09/18/emf-forms-and-emf-client-platform-1-21-0-released-2/&quot; rel=&quot;nofollow&quot;&gt;EMF Forms and EMF Client Platform 1.21.0 released!&lt;/a&gt; appeared first on &lt;a href=&quot;https://eclipsesource.com&quot; rel=&quot;nofollow&quot;&gt;EclipseSource&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 18 Sep 2019 14:56:41 +0000</pubDate>
 </item>
 <item>
 	<title>Mike Milinkovich: Eclipse Che 7 Enables Faster, Safer Development on Kubernetes</title>
@@ -1070,13 +1117,6 @@ He has been extremely helpful since by fixing bugs in the Eclipse platform that 
 Thank you, Lakshminarayana!&lt;/p&gt;
 &lt;p&gt;I would also like to thank Lars Vogel who has been my Mentor and helped tremendously when I was unsure what to do.&lt;/p&gt;</description>
 	<pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Maximilian and Jonas: Scaffolding a JSON Forms application with Yeoman</title>
-	<guid isPermaLink="false">https://eclipsesource.com/?p=41880</guid>
-	<link>https://eclipsesource.com/blogs/2019/08/14/scaffolding-a-json-forms-application-with-yeoman/</link>
-	<description>&lt;p&gt;JSON Forms is a framework for efficiently developing form-based UIs based on JSON Schema.  It provides a simple declarative JSON-based language...&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;https://eclipsesource.com/blogs/2019/08/14/scaffolding-a-json-forms-application-with-yeoman/&quot; rel=&quot;nofollow&quot;&gt;Scaffolding a JSON Forms application with Yeoman&lt;/a&gt; appeared first on &lt;a href=&quot;https://eclipsesource.com&quot; rel=&quot;nofollow&quot;&gt;EclipseSource&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Wed, 14 Aug 2019 10:15:56 +0000</pubDate>
 </item>
 <item>
 	<title>Donald Raab: Two Years and Fifty Blogs</title>
@@ -2186,14 +2226,6 @@ client.connect().get();&lt;/code&gt;&lt;/pre&gt;
 	<description>This version does an updated of the main dependencies of LiClipse.&lt;br /&gt;&lt;br /&gt;It's now based on:&lt;br /&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Eclipse 4.11 (also named 2019-03)&lt;/li&gt;&lt;li&gt;PyDev (5.2.2) &lt;/li&gt;&lt;li&gt;EGit (5.3.0)&lt;/li&gt;&lt;/ul&gt;As a note, it seems I haven't updated this blog as often as I should (I end up putting more effort into announcing the PyDev updates) but just to note, LiClipse is always updated whenever PyDev is updated.&lt;br /&gt;&lt;br /&gt;Enjoy! &lt;br /&gt;&lt;br /&gt;</description>
 	<pubDate>Wed, 27 Mar 2019 13:46:27 +0000</pubDate>
 	<author>noreply@blogger.com (Fabio Zadrozny)</author>
-</item>
-<item>
-	<title>Christian Pontesegger: JFace TableViewer sorting via Drag and Drop</title>
-	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-6733293349492915246</guid>
-	<link>http://codeandme.blogspot.com/2019/03/jface-tableviewer-sorting-via-drag-and.html</link>
-	<description>Recently I wanted to sort elements in a &lt;i&gt;TableViewer&lt;/i&gt; via drag and drop and was astonished that I could not find  existing helper classes or tutorial for this fairly trivial use case. So here is one for you in case you got the same use case.&lt;br /&gt;&lt;br /&gt;Source code for this tutorial is available on github as a &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/Code%20&amp;amp;%20Me%20Blog/TableViewer_DnD_Sorting.zip?raw=true&quot; target=&quot;_blank&quot;&gt;single zip archive&lt;/a&gt;, as a &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/Code%20&amp;amp;%20Me%20Blog/TableViewer_DnD_Sorting.psf?raw=true&quot;&gt;Team Project Set&lt;/a&gt; or you can &lt;a href=&quot;https://github.com/Pontesegger/codeandme/tree/master/ui/TableViewer%20DnD%20Sorting&quot; target=&quot;_blank&quot;&gt;browse the files&lt;/a&gt; online.&lt;br /&gt;&lt;br /&gt;If you are just interested in the helper class, have a look at &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/ui/TableViewer%20DnD%20Sorting/src/com/codeandme/tableviewer/dnd/sorting/DnDSortingSupport.java&quot; target=&quot;_blank&quot;&gt;DnDSortingSupport&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;Prerequisites:&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;To have something to work on I will start with a &lt;i&gt;TableViewer&lt;/i&gt; containing some data stored in a &lt;i&gt;java.util.List&lt;/i&gt;. It is a default &lt;i&gt;TableViewer&lt;/i&gt; and therefore I expect you have something similar ready for your experiments.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;Step 1: Add drag support&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://www.eclipse.org/articles/Article-SWT-DND/DND-in-SWT.html&quot; target=&quot;_blank&quot;&gt;Drag and Drop support for SWT&lt;/a&gt; is implemented via &lt;i&gt;DragSource&lt;/i&gt; and &lt;i&gt;DropTarget&lt;/i&gt; instances. To define that we can drag data, we need to bind a &lt;i&gt;DragSource&lt;/i&gt; to a &lt;i&gt;Control&lt;/i&gt;. &lt;br /&gt;&lt;pre class=&quot;brush: java&quot;&gt;  DragSource dragSource = new DragSource(tableViewer.getControl(), DND.DROP_MOVE);&lt;br /&gt;  dragSource.setTransfer(LocalSelectionTransfer.getTransfer());&lt;br /&gt;  dragSource.addDragListener(new DragSourceAdapter() {&lt;br /&gt;&lt;br /&gt;   @Override&lt;br /&gt;   public void dragStart(DragSourceEvent event) {&lt;br /&gt;    event.doit = !tableViewer.getStructuredSelection().isEmpty();&lt;br /&gt;   }&lt;br /&gt;&lt;br /&gt;   @Override&lt;br /&gt;   public void dragSetData(DragSourceEvent event) {&lt;br /&gt;    if (LocalSelectionTransfer.getTransfer().isSupportedType(event.dataType)) {&lt;br /&gt;     LocalSelectionTransfer.getTransfer().setSelection(tableViewer.getStructuredSelection());&lt;br /&gt;     LocalSelectionTransfer.getTransfer().setSelectionSetTime(event.time &amp;amp; 0xFFFF);&lt;br /&gt;    }&lt;br /&gt;   }&lt;br /&gt;&lt;br /&gt;   @Override&lt;br /&gt;   public void dragFinished(DragSourceEvent event) {&lt;br /&gt;    LocalSelectionTransfer.getTransfer().setSelection(null);&lt;br /&gt;    LocalSelectionTransfer.getTransfer().setSelectionSetTime(0);&lt;br /&gt;   }&lt;br /&gt;  });&lt;br /&gt;&lt;/pre&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;In line 1 we create the &lt;i&gt;DragSource&lt;/i&gt; and define allowed DnD operations. As we want to sort elements, we only allow &lt;i&gt;DND.MOVE&lt;/i&gt; operations. Then we define the way data gets transferred from the &lt;i&gt;DragSource&lt;/i&gt; to the &lt;i&gt;DropTarget&lt;/i&gt;. As we stay within  the same Eclipse application we may use a &lt;i&gt;LocalSelectionTransfer&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;The first thing that happens on a drag is &lt;i&gt;dragStart()&lt;/i&gt;. Technically the selection cannot be empty as we have to select something before we start the operation, so this implementation is merely to understand how we could deny the operation right from the start.&lt;br /&gt;&lt;br /&gt;After the drop operation got accepted in the &lt;i&gt;DropTarget&lt;/i&gt; (see below) we get asked to &lt;i&gt;dragSetData()&lt;/i&gt; and define what data we are moving. &lt;i&gt;setSelectionSetTime()&lt;/i&gt; is not needed by our &lt;i&gt;DropTarget&lt;/i&gt;, so again this is for completeness only.&lt;br /&gt;&lt;br /&gt;Finally we need to clean up after the operation is done.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;Step 2: Add drop support&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Implementation is similar like before, just now we need a &lt;i&gt;DropTarget&lt;/i&gt;. Instead of writing our own &lt;i&gt;DropTargetListener&lt;/i&gt; we may use a &lt;i&gt;ViewerDropAdapter&lt;/i&gt; which covers most of the required work already.&lt;br /&gt;&lt;pre class=&quot;brush: java&quot;&gt;  DropTarget dropTarget = new DropTarget(tableViewer.getControl(), DND.DROP_MOVE);&lt;br /&gt;  dropTarget.setTransfer(LocalSelectionTransfer.getTransfer());&lt;br /&gt;  dropTarget.addDropListener(new ViewerDropAdapter(tableViewer) {&lt;br /&gt;&lt;br /&gt;   @Override&lt;br /&gt;   public void dragEnter(DropTargetEvent event) {&lt;br /&gt;    // make sure drag was triggered from current tableViewer&lt;br /&gt;    if (event.widget instanceof DropTarget) {&lt;br /&gt;     boolean isSameViewer = tableViewer.getControl().equals(((DropTarget) event.widget).getControl());&lt;br /&gt;     if (isSameViewer) {&lt;br /&gt;      event.detail = DND.DROP_MOVE;&lt;br /&gt;      setSelectionFeedbackEnabled(false);&lt;br /&gt;      super.dragEnter(event);&lt;br /&gt;     } else&lt;br /&gt;      event.detail = DND.DROP_NONE;&lt;br /&gt;    } else&lt;br /&gt;     event.detail = DND.DROP_NONE;&lt;br /&gt;   }&lt;br /&gt;&lt;br /&gt;   @Override&lt;br /&gt;   public boolean validateDrop(Object target, int operation, TransferData transferType) {&lt;br /&gt;    return true;&lt;br /&gt;   }&lt;br /&gt;&lt;br /&gt;   @Override&lt;br /&gt;   public boolean performDrop(Object target) {&lt;br /&gt;    int location = determineLocation(getCurrentEvent());&lt;br /&gt;    if (location == LOCATION_BEFORE) {&lt;br /&gt;     if (modelManipulator.insertBefore(getSelectedElement(), getCurrentTarget())) {&lt;br /&gt;      tableViewer.refresh();&lt;br /&gt;      return true;&lt;br /&gt;     }&lt;br /&gt;&lt;br /&gt;    } else if (location == LOCATION_AFTER) {&lt;br /&gt;     if (modelManipulator.insertAfter(getSelectedElement(), getCurrentTarget())) {&lt;br /&gt;      tableViewer.refresh();&lt;br /&gt;      return true;&lt;br /&gt;     }&lt;br /&gt;    }&lt;br /&gt;&lt;br /&gt;    return false;&lt;br /&gt;   }&lt;br /&gt;&lt;br /&gt;   private Object getSelectedElement() {&lt;br /&gt;    return ((IStructuredSelection) LocalSelectionTransfer.getTransfer().getSelection()).getFirstElement();&lt;br /&gt;   }&lt;br /&gt;  });&lt;br /&gt;&lt;/pre&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;i&gt;dragEnter()&lt;/i&gt; is the first thing that happens on the drop part of DnD. The default implementation is already fine. Our implementation additionally checks that the drag source is our current &lt;i&gt;TableViewer&lt;/i&gt;. Further we disable the selectionFeedback. The feedback visually shows the user whether we drop before an element, on the element, or after it. The &lt;i&gt;ViewerDropAdapter&lt;/i&gt; already supports these kind of feedbacks. Until &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=545733&quot; target=&quot;_blank&quot;&gt;bug 545733&lt;/a&gt; gets fixed the helper class contains a small patch to provide before/after feedback only. It does not make sense to drop on another element when we do sorting, right?&lt;br /&gt;&lt;br /&gt;&lt;i&gt;validateDrop()&lt;/i&gt; will be queried multiple times. We might check that we do not drop the table element on itself, but we spared this check for the current example.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;performDrop()&lt;/i&gt; finally implements the drop operation. To keep the helper class generic I used an interface that allows to insert elements before or after another element. An implementation of it needs to be passed to the helper class.&lt;br /&gt;&lt;br /&gt;&lt;pre class=&quot;brush: java&quot;&gt; public interface IModelManipulator {&lt;br /&gt;  boolean insertBefore(Object source, Object target);&lt;br /&gt;&lt;br /&gt;  boolean insertAfter(Object source, Object target);&lt;br /&gt; }&lt;/pre&gt;The helper class comes with an implementation for &lt;i&gt;java.util.List&lt;/i&gt;, which you may reuse.&lt;br /&gt;&lt;br /&gt;</description>
-	<pubDate>Mon, 25 Mar 2019 12:31:12 +0000</pubDate>
-	<author>noreply@blogger.com (Christian Pontesegger)</author>
 </item>
 
 </channel>
